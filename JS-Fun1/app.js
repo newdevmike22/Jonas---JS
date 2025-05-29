@@ -24,9 +24,9 @@ console.log(`${mugsy_lewis} just turned ${$age} today.`);
 console.log(`${person} finally knows that PI = ${PI}.`);
 console.log(`My very first job was as a ${myFirstJob}.`);
 console.log(`Now I'm a ${myCurrentJob}.`);
-*/
 
-/* 7 Primitive Data Types */
+
+// 7 Primitive Data Types
 
 // 1. Number: Floating point numbers. Used for decimals and intergers.
 let age = 57;
@@ -46,6 +46,7 @@ let children;
 
 // 7. BigInt (ES2020): Larger integers than the Number type can hold.
 
+/*
 let javaScriptIsCool = true;
 console.log(javaScriptIsCool);
 
@@ -65,3 +66,16 @@ console.log(typeof favoriteDish);
 favoriteDish = "Pasta";
 console.log(favoriteDish);
 console.log(typeof favoriteDish);
+*/
+
+// var still works but it is outdated.
+var homeTown = "St. Louis";
+homeTown = "Atlantis";
+
+// Use let when the value of the variable will change later.
+let yourAge = 35;
+yourAge = 52;
+
+// Use const when the value of the variable will not/can not change.
+// const must always have a value. const should always be used by default.
+const birthYear = 1968;

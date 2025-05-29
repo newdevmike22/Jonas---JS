@@ -2,8 +2,8 @@
 // Log their values to the console.
 // Link it to your index.html file.
 
-let country = "Dominican Republic";
-let continent = "North America";
+const country = "Dominican Republic";
+const continent = "North America";
 let population = 11.33;
 let year = 2023;
 
@@ -18,3 +18,8 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+// Assignment 3 - Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
+// Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
+language = "Spanish";
+console.log(language);
