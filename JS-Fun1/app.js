@@ -66,7 +66,6 @@ console.log(typeof favoriteDish);
 favoriteDish = "Pasta";
 console.log(favoriteDish);
 console.log(typeof favoriteDish);
-*/
 
 // var still works but it is outdated.
 var homeTown = "St. Louis";
@@ -79,3 +78,35 @@ yourAge = 52;
 // Use const when the value of the variable will not/can not change.
 // const must always have a value. const should always be used by default.
 const birthYear = 1968;
+*/
+
+// Basic Operators - Math
+const now = 2025;
+const ageMike = now - 1968;
+const ageMarie = now - 1977;
+console.log(ageMike, ageMarie);
+
+console.log(ageMike * 2, ageMarie / 2, 2 ** 3);
+// 2 ** 3 means to the power of 3 = 2 * 2 * 2
+
+const firstName = "Rod";
+const lastName = "Munch";
+console.log(firstName + " " + lastName);
+console.log(`${firstName} ${lastName}`);
+
+// Basic Operators - Assignment
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x /= 5; // x = x / 5 = 20
+x++; // x = x + 1 = 21
+x--; // x = x - 1 = 20
+console.log(x);
+
+// Basic Operators - Comparison
+console.log(ageMike > ageMarie); // >, <, >=, <=
+console.log(ageMarie < x);
+console.log(ageMarie >= 18);
+
+const isFullAge = ageMarie >= 18;
+console.log(now - 1968 > now - 1977);

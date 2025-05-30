@@ -2,7 +2,7 @@
 // Log their values to the console.
 // Link it to your index.html file.
 
-const country = "Dominican Republic";
+const country = "The Dominican Republic";
 const continent = "North America";
 let population = 11.33;
 let year = 2023;
@@ -23,3 +23,23 @@ console.log(typeof language);
 // Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
 language = "Spanish";
 console.log(language);
+
+// Assignment 4 - If your country split in half, and each half would contain half the population, then how many people would live in each half?
+// Increase the population of your country by 1 and log the result to the console.
+// Finland has a population of 6 million. Does your country have more people than Finland?
+// The average population of a country is 33 million people. Does you country have less people than the average country?
+// Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
+let Finland = 6;
+console.log(Finland < population);
+
+let countryAverage = 33;
+console.log(countryAverage > population);
+
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
+console.log(description);
+
+population /= 2;
+console.log(`${population} million.`);
+
+population++;
+console.log(`${population} million.`);
