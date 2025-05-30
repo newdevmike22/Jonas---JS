@@ -110,9 +110,8 @@ console.log(ageMarie >= 18);
 
 const isFullAge = ageMarie >= 18;
 console.log(now - 1968 > now - 1977);
-*/
 
-// Operators Precedence
+// Operator Precedence
 const now = 2025;
 const ageMike = now - 1968;
 const ageMarie = now - 1977;
@@ -125,3 +124,17 @@ console.log(x, y);
 
 const averageAge = (ageMike + ageMarie) / 2;
 console.log(ageMike, ageMarie, averageAge);
+*/
+
+// Strings and Template Literals
+const now = 2025;
+const firstName = "Biggie";
+const job = "NBA basketball player";
+const birthYear = 2004;
+
+const Biggie = `Hi, I'm ${firstName} a ${now - birthYear} year old ${job}.`;
+console.log(Biggie);
+
+console.log(`Hello
+I'm a string
+with multiple lines`);
