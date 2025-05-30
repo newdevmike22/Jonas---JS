@@ -78,7 +78,7 @@ yourAge = 52;
 // Use const when the value of the variable will not/can not change.
 // const must always have a value. const should always be used by default.
 const birthYear = 1968;
-*/
+
 
 // Basic Operators - Math
 const now = 2025;
@@ -110,3 +110,18 @@ console.log(ageMarie >= 18);
 
 const isFullAge = ageMarie >= 18;
 console.log(now - 1968 > now - 1977);
+*/
+
+// Operators Precedence
+const now = 2025;
+const ageMike = now - 1968;
+const ageMarie = now - 1977;
+
+console.log(now - 1968 > now - 1977);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+console.log(x, y);
+
+const averageAge = (ageMike + ageMarie) / 2;
+console.log(ageMike, ageMarie, averageAge);
