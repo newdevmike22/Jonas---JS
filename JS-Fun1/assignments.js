@@ -38,11 +38,11 @@ console.log(countryAverage > population);
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description);
 
-population /= 2;
-console.log(`${population} million.`);
+// population /= 2;
+// console.log(`${population} million.`);
 
-population++;
-console.log(`${population} million.`);
+// population++;
+// console.log(`${population} million.`);
 
 /* Challenge #1
 
@@ -80,3 +80,12 @@ console.log(BMIMark, BMIJohn);
 
 const markHigherBMI = BMIMark;
 console.log(markHigherBMI > BMIJohn);
+
+// Assignment 5 - If your country's population is greater than 33 million, log a string like this to the console: "Portugal's population is 22 million below average" (the 22 is the average of 33 minus the country's population).
+const avgPopulation = 33;
+
+if (population > avgPopulation) {
+  console.log(`${country} has a greater population of the average country. The average population is ${avgPopulation} million.`);
+} else {
+  console.log(`${country} is ${avgPopulation - population} million below the world's average country population.`);
+}

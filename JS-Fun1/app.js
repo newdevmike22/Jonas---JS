@@ -124,7 +124,6 @@ console.log(x, y);
 
 const averageAge = (ageMike + ageMarie) / 2;
 console.log(ageMike, ageMarie, averageAge);
-*/
 
 // Strings and Template Literals
 const now = 2025;
@@ -138,3 +137,25 @@ console.log(Biggie);
 console.log(`Hello
 I'm a string
 with multiple lines`);
+*/
+
+// If else statements
+const age = 15;
+
+if (age >= 18) {
+  console.log(`Hope can get her driving license.`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Hope is too young. Wait anpther ${yearsLeft} years.`);
+}
+
+const birthYear = 2002;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
