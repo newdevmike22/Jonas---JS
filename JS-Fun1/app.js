@@ -158,7 +158,6 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
-*/
 
 // Type Conversion
 const inputYear = 1999;
@@ -178,3 +177,26 @@ console.log("23" * "2");
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
+*/
+
+// 5 Falsy Values - 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Big Mike"));
+console.log(Boolean({}));
+
+const money = 50;
+
+if (money) {
+  console.log(`Don't spend it all.`);
+} else {
+  console.log(`You need a job!`);
+}
+
+let height = 0;
+
+if (height) {
+  console.log(`YAY! Height is defined.`);
+} else {
+  console.log(`Height is UNDEFINED.`);
+}
