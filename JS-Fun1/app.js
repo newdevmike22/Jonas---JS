@@ -177,7 +177,6 @@ console.log("23" * "2");
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
-*/
 
 // 5 Falsy Values - 0, '', undefined, null, NaN
 console.log(Boolean(0));
@@ -200,3 +199,25 @@ if (height) {
 } else {
   console.log(`Height is UNDEFINED.`);
 }
+*/
+
+// Equality Operators
+const age = "21";
+
+if (age === 21) console.log(`You just became a legal adult :D (strict)`);
+if (age == 21) console.log(`You just became a legal adult :D (loose)`);
+
+const favorite = Number(prompt(`What's your favorite number?`));
+console.log(favorite);
+
+if (favorite === 25) {
+  console.log(`Cool! 25 is an amazing number!`);
+} else if (favorite === 35) {
+  console.log(`35 is an amazing number to!`);
+} else if (favorite === 16) {
+  console.log(`16 is so sweet!`);
+} else {
+  console.log(`Number is neither 25, 35 or 16.`);
+}
+
+if (favorite !== 25) console.log(`Why not 25?`);
